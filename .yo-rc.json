@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "marcopgordillo",
+    "baseName": "contratos",
+    "packageName": "int.unasur.contratos",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "es"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.10.1",
+    "packageFolder": "int/unasur/contratos",
+    "jwtSecretKey": "8d8ff7cf5959d4d4d7ae67e5f79138fcde6b8534",
+    "jhiPrefix": "jhi"
+  }
+}
